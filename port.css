@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*
+{
+    
+    margin: 0%;
+    padding: 0%;
+    font-family:'Ubuntu','sans-serif';
+    transition: .5s;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height:130px;
+    width: 100%;
+    background-color: #071944;
+    border: #010817 solid  2px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    position: fixed;
+    box-shadow: 0 0 15px #020f2d;
+    z-index: 9;
+}
+
+.navbar
+{
+    margin-left: 900px;
+    
+}
+.navbar a
+ {
+   
+  font-size: 18px;
+  color:aqua;
+  text-decoration : none;
+  font-weight: 500;
+  margin-left: 35px;
+  border: #020f2d;
+ 
+  
+ 
+ }
+
+
+
+ 
+header h1
+{
+        margin-top: 35px;
+        margin-left: 300px;
+        color: aqua;
+        text-shadow: 0 0 2px aqua;
+   
+ }
+
+#image
+{
+    float: left;
+    border: 12px rgb(240, 255, 255) solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #020f2d;
+    z-index: 99;
+    overflow: hidden;
+    box-shadow: 0 0 15px #020f2d;
+}
+
+#image > img
+{
+    
+   border:0;
+   margin-left: 26px;
+   margin-top: 16px;
+    
+}
+.content
+{
+   position: relative;
+   padding-top: 130px;
+    width: 100%;
+   
+}
+
+.aspects
+{
+  height:500px ;
+  width: 99.4%;
+  border: rgba(186,187,171,255) 4px solid;
+  background-color: rgba(186,187,171,255);
+}
+.content
+{
+    background-color:  #a6abb9 solid;
+    
+}
+h2
+{
+    color: aqua;
+    background-color: #071944;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#Contact
+{
+    height: 300px;
+    width: 99%;
+}
+#Contact h2
+{
+    margin-top: 20px;
+    margin-right: 800px;
+}
+
+p{
+    margin: 20px 20px 20px 350px;
+    
+}
+#About p
+{
+ font-weight: 500;
+}
+#About 
+{
+    
+    background-image: url("https://i.ibb.co/8jFsnxN/fianlwp7315479-cat-cartoon-wallpapers-final.jpg ");
+    background-repeat: no-repeat;
+    background-size: 750px 100%;
+    
+    
+}
+header .navbar a:hover{
+    font-size: larger;
+    font-weight: 300;
+    color:blue;
+}
+.skillset
+{
+ padding: 5px;
+  height:110px;
+  width:110px;
+  border: .01px #e4e6ec solid;
+  border-radius: 5px;
+  float:right;
+  margin: 20px;
+  border: .01px ;
+  background-color: rgb(237, 237, 233);
+  align-items: bottom;
+  padding: 5px;
+  display: inline;
+ 
+ 
+}
+.cont-me
+{
+    padding: 5px;
+  height:110px;
+  width:110px;
+  border: .01px #e4e6ec solid;
+  border-radius: 12px;
+  float:left;
+  margin: 23.5px;
+  border: .01px ;
+  background-color: #071944;
+  align-items: bottom;
+  padding: 5px;
+}
+.cont-me :hover
+{
+    
+  box-shadow:0 0 12px#010817;
+}
+.skillset :hover
+{
+  
+  box-shadow:0 0 12px#010817;
+  border-radius: 20px;
+ 
+}
+.skillset > img 
+{
+   border: 0;
+   border-radius: 8px;
+   width: 100px;
+   height: 100px;
+   margin-top: 5px;
+   margin-left: 4.5px;
+}
+
+
+
+#Contact
+{
+ background-color: #071944;
+ border: #020f2d solid 8px;
+ border-radius: 12px;
+
+}
+#Contact h2
+{
+ margin: auto;
+ 
+
+}
+#Contact p
+{
+ 
+ color: gray;
+  margin-top: 200px;
+  margin-left: 36vw; ;
+
+}
+#projects
+{
+    width: 100%;
+    margin: auto;
+    padding: 200px;
+    align-items: center;
+}
+
+.cont-me a i{
+    font-size: 80px;
+    color: aqua;
+}
+.cont-me a :hover{
+    font-size: 100px;
+    color: rgb(0, 13, 255);
+}
+
+.map {
+   display: inline-block; 
+   
+}
+.video {
+   display: inline-block; 
+   
+}
+
+#Find-me i
+{
+    font-size: 310px;
+    color: black;
+}
+#Projects i
+{
+    font-size: 310px;
+    color: black;
+}
+#Skills i
+{
+    margin-top: 150px;
+    float: left;
+    display: inline;
+    font-size: 300px;
+    color: black;
+}
